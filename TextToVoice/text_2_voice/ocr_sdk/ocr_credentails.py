@@ -1,0 +1,2 @@
+ABBYY_APPID='ee08fd6c-0be5-4d02-95e1-3e7da7d82771'
+ABBYY_PWD='u8ewJVb0fzyNYeh+lWnD1Zzu'

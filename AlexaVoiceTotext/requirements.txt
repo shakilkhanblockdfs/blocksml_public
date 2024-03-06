@@ -1,0 +1,19 @@
+SpeechRecognition
+pyttsx3
+pyaudio
+# brew install portaudio 
+# xcode-select --install
+# https://stackoverflow.com/questions/33513522/when-installing-pyaudio-pip-cannot-find-portaudio-h-in-usr-local-include
+
+
+## On Linux this package is also needed
+#sudo apt-get -y install python3-pyaudio
+## On ubuntu we can install pyaudio as below
+#sudo apt-get install python3-pyaudio
+
+#sudo apt install jackd2
+#pulseaudio --kill
+#jack_control start
+#jack_control exit
+#pulseaudio --start
+

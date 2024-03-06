@@ -1,2 +1,0 @@
-# blocksml_public
-blocksml_public_repo

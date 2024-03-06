@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "axios": "^0.22.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.13",
+    "react-toastify": "^8.0.3",
+    "toastify": "^2.0.1"
+  }
+}
