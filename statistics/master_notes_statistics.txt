@@ -1,0 +1,54 @@
+Both uniform and normal distributions are types of probability distributions that tell you the likelihood of an outcome. However, they have very different properties and shapes.
+
+Uniform Distribution:
+
+A uniform distribution, sometimes also known as a rectangular distribution, is a type of probability distribution in which all outcomes are equally likely. A deck of cards has a uniform distribution because the likelihood of drawing a heart, a club, a diamond, or a spade is equally likely. A uniform distribution is defined by two parameters, a and b:
+
+a is the minimum
+b is the maximum
+The probability density function of the uniform distribution is:
+1/(b−a)
+Normal Distribution:
+
+A normal distribution, also known as a Gaussian distribution, is a type of continuous probability distribution for a real-valued random variable. The normal distribution is perhaps the most important distribution in all of statistics. It is widely used in the natural and social sciences. The shape of the normal distribution is symmetric and bell-shaped.
+
+A normal distribution is defined by two parameters, the mean (μ) and the standard deviation (σ). The mean defines the location of the peak and the standard deviation defines the width of the bell shape.
+
+The probability density function of the normal distribution is:
+(1/√(2πσ^2)) * e^(-(x−μ)^2/(2σ^2))
+
+Differences:
+
+The main differences between the two types of distributions are:
+
+Shape: The uniform distribution is rectangular (all outcomes have equal probabilities), while the normal distribution is bell-shaped (most outcomes are close to the mean).
+
+Probabilities: In a uniform distribution, all outcomes in the defined range are equally likely. In a normal distribution, outcomes near the mean are most likely, with the likelihood decreasing as you move away from the mean.
+
+Applications: Uniform distributions are often used in simulations where inputs are equally likely to occur within a certain range. Normal distributions are used in cases like population studies, height of people, blood pressure, marks on a test, etc., where most results are expected to be close to the average value.
+
+Central Limit Theorem: The sum of a large number of independent and identically distributed (i.i.d.) random variables has an approximately normal distribution, regardless of the shape of the original distribution. This is not true for the uniform distribution.
+
+Outliers: In a normal distribution, observations are more likely to be found within a few standard deviations of the mean and less likely the further away you go (outliers are unlikely). In a uniform distribution, since all outcomes are equally likely, there's no concept of an 'outlier' within the defined range.
+
+-----------------------------------------------
+
+Confidence Level            Zscore
+90%                         1.645
+95%                         1.96
+98%                         2.33
+99%                         2.575  
+
+-----------------------------------------------
+
+Z-score =  x(bar) -m
+           -----------
+           sigma/sqrt(n)
+           
+Here x(bar) is sample mean
+m -> population mean
+sigma is std deviation
+n is number of samples
+
+-----------------------------------------------
+
