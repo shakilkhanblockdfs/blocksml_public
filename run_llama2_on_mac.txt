@@ -1,0 +1,67 @@
+Most of my fellow members and some new software engineer's are having a 
+hardtime running Llama2 on Mac or local PC's, despite all the information scattered.
+The problem is people are confused to use meta github, or huggingface or combination of both.
+Things gets sketch that despite the weights being downloaded if its not quantized properly it doesn;t work.
+
+So I have compiled a list of steps for Mac which works for me in order to run Llama2 7billions parameter locally.
+
+llama2 download and install on Mac
+
+1: https://llama.meta.com/llama-downloads/
+    Request llama2 7billion parameter as 70 billion would be difficult to run on Laptop.
+
+2. mkdir llama_models; cd llama_models
+3. git clone https://github.com/ggerganov/llama.cpp  # This is for c++ conversion project of llama weights from pytorch to some bianries in quantized format
+4. git clone https://github.com/facebookresearch/llama.git
+5. cd llama_models/llama
+6. bash ./download.sh
+7. Paste the Unique customer URL you received from Meta
+8. Select the model as 7b-chat
+9. The model would be downloaded at ./llama-2-7b-chat/consolidated.00.pth
+10. This is a pytorch file
+11. Next got to cpp repository as llama_models/llama.cpp
+12. make # this will build the c++ project for converting the llama projects
+
+13. cd llama_models/llama.cpp
+14. conda create --name llama2 
+15. conda activate llama2  or source activate llama2 
+16. conda install python=3.11
+17. python3 -m pip install -r ./requirements.txt
+18. pwd 
+19. mkdir -p llama_models/llama_converted/7b-chat
+20. cd llama_models/llama.cpp
+21. python3 convert.py --outfile ../llama_converted/7b-chat/ggml-model-f16.bin --outtype f16 ../llama/llama-2-7b-chat
+
+22.ls -lh ../llama/llama-2-7b-chat/consolidated.00.pth
+
+-rw-r--r--  1 shakil  staff    13G Jul 13  2023 ../llama/llama-2-7b-chat/consolidated.00.pth
+
+23.ls -lh ../llama_converted/7b-chat/ggml-model-f16.bin
+-rw-r--r--  1 shakil  staff    13G Feb 13 11:44 ../llama_converted/7b-chat/ggml-model-f16.bin
+
+
+24. llama_models/llama.cpp
+
+25. ./quantize 
+
+26. ./quantize ../llama_converted/7b-chat/ggml-model-f16.bin ../llama_converted/7b-chat/ggml-model-q4_0.bin q4_0
+
+24. pwd
+    you shoule be here, llama_models/llama.cpp
+
+25. To run the inference we can do
+
+26. ./main -m ../llama_converted/7b-chat/ggml-model-q4_0.bin -n 1024
+
+27. 1024 in the above is token
+
+28. mkdir -p llama_models/prompts
+
+29. echo "Create a linked list in C++" > llama_models/prompts/chat-with-shakil.txt
+
+30. cd llama_models/llama.cpp
+
+31. ./main -m ../llama_converted/7b-chat/ggml-model-q4_0.bin -n 1024 --repeat_penalty 1.0 --color -i -f ../prompts/chat-with-shakil.txt
+
+32.  ./main -m ../llama_converted/7b-chat/ggml-model-q4_0.bin -n 1024 --repeat_penalty 1.0 --color -i  -p "What is the capital of United states"
+
