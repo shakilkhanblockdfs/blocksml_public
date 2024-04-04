@@ -65,3 +65,4 @@ llama2 download and install on Mac
 
 32.  ./main -m ../llama_converted/7b-chat/ggml-model-q4_0.bin -n 1024 --repeat_penalty 1.0 --color -i  -p "What is the capital of United states"
 
+----------------------------------
