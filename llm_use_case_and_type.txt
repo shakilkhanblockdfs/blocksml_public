@@ -1,0 +1,27 @@
+There are many LLMs in the market. GPT4, Claude, Gemini, Mistral, etc. But which LLM suits your needs the best and how to choose it?
+
+LLM benchmarks are often confusing. As a user which benchmark score should you be concerned about while choosing the right LLM?
+
+Here I am curating a list of popular(not exhaustive) benchmarks and what they aim to measure.
+
+1. SQuAD (Stanford Question Answering Dataset): Tests reading comprehension and answering questions based on given passages.
+2. RACE: Evaluate understanding of passages from real-world scenarios through multiple-choice questions.
+3. HellaSwag: Tests common sense by predicting what could happen next in a situation.
+4. LAMBADA: Checks if a model can predict the right final word in a passage by understanding the context.
+5. BoolQ: Yes/no questions to be answered based on short passages. Tests query understanding.
+6. MultiRC: Requires answering multiple choice questions by reasoning over multiple passages.
+7. ARC: Multiple-choice reasoning questions requiring gathering information from a science database.
+8. CommonsenseQA: Tests commonsense reasoning through multiple-choice questions about everyday scenarios.
+9. OpenBookQA: Science multiple-choice questions to be answered using an open book of facts.
+10. GSM8K: Tests advanced math word problem solving needing multi-step reasoning.
+11. CodeXGLUE: Evaluates code understanding and generation abilities across programming languages.
+12. APPS: Assesses program understanding skills for Python code.
+13. HumanEval: Tests coding abilities by having the model write functional programs.
+14. HumanEval-X: An extension of HumanEval with more challenging coding tasks.
+15. PIQA: Questions about diagrams and situations to test physical reasoning abilities.
+16. VCR: Tests understanding of situations depicted in images through question-answering.
+17. NLVR2: Determines if a statement accurately describes a set of images.
+18. MMLU: Combines text with images/videos to test multimodal language and vision skills.
+
+So choose your LLM by looking at their score on your desirable benchmark.
+
