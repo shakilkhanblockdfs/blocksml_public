@@ -1,27 +1,25 @@
-There are many LLMs in the market. GPT4, Claude, Gemini, Mistral, etc. But which LLM suits your needs the best and how to choose it?
+In the current market, numerous Language Model (LLM) options are available, including prominent ones like GPT4, Claude, Gemini, and Mistral, among others. 
+However, selecting the most suitable LLM for your specific needs can be a daunting task.
 
-LLM benchmarks are often confusing. As a user which benchmark score should you be concerned about while choosing the right LLM?
+To facilitate your decision-making process, here is a curated list of popular benchmarks, each designed to assess specific facets of LLM performance:
 
-Here I am curating a list of popular(not exhaustive) benchmarks and what they aim to measure.
+RACE: Evaluates the comprehension of passages from real-world scenarios by presenting multiple-choice questions.
+HellaSwag: This benchmark is geared towards testing the common sense of LLMs by predicting plausible outcomes in given situations.
+SQuAD (Stanford Question Answering Dataset): This benchmark assesses the ability of LLMs in reading comprehension and answering questions based on provided passages.
+MMLU: This benchmark combines text with images/videos to assess LLMs' multimodal language and vision skills.
+GSM8K: Tests advanced mathematical word problem-solving skills that require multi-step reasoning.
+HumanEval-X: An extension of HumanEval, featuring more challenging coding tasks.
+BoolQ: Designed to test query understanding through yes/no questions based on short passages.
+ARC: Presents multiple-choice reasoning questions that necessitate extracting information from a scientific database.
+CodeXGLUE: Evaluates LLMs' understanding and generation capabilities across various programming languages.
+PIQA: Tests LLMs' physical reasoning abilities through questions about diagrams and situations.
+APPS: Assesses LLMs' proficiency in understanding Python code.
+HumanEval: This benchmark evaluates LLMs' coding abilities by requiring them to write functional programs.
+LAMBADA: Focused on evaluating whether an LLM can predict the correct final word in a passage by comprehending its context.
+CommonsenseQA: Assesses the commonsense reasoning abilities of LLMs through multiple-choice questions involving everyday scenarios.
+NLVR2: Determines whether a statement accurately describes a set of images.
+MultiRC: Requires LLMs to reason over multiple passages to answer multiple-choice questions effectively.
+VCR: Evaluates LLMs' comprehension of situations depicted in images through question-answering.
+OpenBookQA: Evaluates LLMs' ability to answer science-related multiple-choice questions using an open book of facts.
 
-1. SQuAD (Stanford Question Answering Dataset): Tests reading comprehension and answering questions based on given passages.
-2. RACE: Evaluate understanding of passages from real-world scenarios through multiple-choice questions.
-3. HellaSwag: Tests common sense by predicting what could happen next in a situation.
-4. LAMBADA: Checks if a model can predict the right final word in a passage by understanding the context.
-5. BoolQ: Yes/no questions to be answered based on short passages. Tests query understanding.
-6. MultiRC: Requires answering multiple choice questions by reasoning over multiple passages.
-7. ARC: Multiple-choice reasoning questions requiring gathering information from a science database.
-8. CommonsenseQA: Tests commonsense reasoning through multiple-choice questions about everyday scenarios.
-9. OpenBookQA: Science multiple-choice questions to be answered using an open book of facts.
-10. GSM8K: Tests advanced math word problem solving needing multi-step reasoning.
-11. CodeXGLUE: Evaluates code understanding and generation abilities across programming languages.
-12. APPS: Assesses program understanding skills for Python code.
-13. HumanEval: Tests coding abilities by having the model write functional programs.
-14. HumanEval-X: An extension of HumanEval with more challenging coding tasks.
-15. PIQA: Questions about diagrams and situations to test physical reasoning abilities.
-16. VCR: Tests understanding of situations depicted in images through question-answering.
-17. NLVR2: Determines if a statement accurately describes a set of images.
-18. MMLU: Combines text with images/videos to test multimodal language and vision skills.
-
-So choose your LLM by looking at their score on your desirable benchmark.
-
+By selecting an LLM with strong performance on relevant benchmarks, you can ensure that it effectively meets your specific needs and requirements.
