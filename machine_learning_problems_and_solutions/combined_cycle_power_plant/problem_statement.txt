@@ -1,3 +1,7 @@
+https://www.itsbrennan.com/ai-practice-project-1/
+
+-----------------------------------------
+
 In this project we will build a model to predict the electrical energy output of a 
 Combined Cycle Power Plant
 , which uses a combination of gas turbines, steam turbines, and heat recovery steam generators to generate power.  
