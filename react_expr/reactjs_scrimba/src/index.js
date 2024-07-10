@@ -18,7 +18,7 @@ Part 2:
     import BodyComponent from "./BodyComponent"
     import FooterComponent from "./Footer"  
 
-    function Page() {
+    function App() {
         return (
             <div>
                 <HeaderComponent />    
@@ -28,4 +28,4 @@ Part 2:
         )
     }
     
-    ReactDOM.render(<Page />, document.getElementById("root"))
+    ReactDOM.render(<App />, document.getElementById("root"))
