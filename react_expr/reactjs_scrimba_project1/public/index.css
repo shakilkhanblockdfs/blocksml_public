@@ -1,0 +1,31 @@
+/* html, body {
+    margin: 0;
+    padding: 0;
+} */
+
+.nav-item{
+    list-style: none;
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item >li{
+    padding: 10px;
+}
+
+.img-style{
+    width: 80px;
+}   
+
+.container{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+text-align: left;
+} 
