@@ -1,0 +1,37 @@
+GenAI Learning ladder.
+
+Topics covered:-
+LLM intro, Transformer, langchain, llama index
+
+1. Andrej Karpathy
+[1hr Talk] Intro to Large Language Models
+https://www.youtube.com/watch?v=zjkBMFhNj_g
+------------------------------
+2.    Stanford CS25: V2 I Introduction to Transformers w/ Andrej Karpathy
+https://www.youtube.com/watch?v=XfpMkf4rD6E
+
+------------------------------
+
+3. Complete Langchain GEN AI Crash Course With 6 End To End LLM Projects With OPENAI,LLAMA2,Gemini Pro
+https://www.youtube.com/watch?v=aWKrL4z5H6w
+
+------------------------------
+4. Step-by-Step Guide to Building a RAG LLM App with LLamA2 and LLaMAindex
+https://www.youtube.com/watch?v=f-AXdiCyiT8
+
+------------------------------
+
+5. For curious readers, to have more holistic approach and basic understanding of Machine learning.
+Complete Machine Learning In 6 Hours| Krish Naik
+https://www.youtube.com/watch?v=JxgmHe2NyeY&t=17423s
+
+------------------------------
+6. Complete Generative AI With Azure Cloud Open AI Services Crash Course
+https://www.youtube.com/watch?v=3SRh2nzN2DM
+
+------------------------------
+
+Learning guide for GenAI
+7.  https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/RAG_roadmap.md
+
+-----------------------------

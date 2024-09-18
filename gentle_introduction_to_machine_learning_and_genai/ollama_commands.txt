@@ -1,0 +1,74 @@
+ollama run llama3
+ollama list
+ollama serve is used when you want to start ollama without running the desktop application.
+
+ollama run llama2:7b                     # 7 billion parameters. Currently in blocksml production
+ollama run llama2:13b                    # 13 billion
+ollama run llama2:70b                    # 70 billion parameter. Futuristic
+
+ollama pull llama2
+---------------------------------------------
+
+Ollama github details
+https://github.com/ollama/ollama
+
+---------------------------------------------
+
+Ollama OpenAI compatibility
+https://ollama.ai/blog/openai-compatibility
+
+----------------------------------------------
+
+Ollama Faq
+https://github.com/ollama/ollama/blob/main/docs/faq.md
+
+----------------------------------------------
+
+Where are models stored?
+macOS: ~/.ollama/models.
+Linux: /usr/share/ollama/.ollama/models
+
+----------------------------------------------
+Install OIllama on Linux
+curl https://ollama.ai/install.sh | sh
+----------------------------------------------
+ollama pull llama2               # By default its 7B, which I am running in production
+----------------------------------------------
+ollama run llama2
+----------------------------------------------
+ollama run llama2:7b                     # 7 billion parameters. Currently in blocksml production
+ollama run llama2:13b                    # 13 billion
+ollama run llama2:70b                    # 70 billion parameter. Futuristic
+-------------------------------------------------
+Remove a Model
+ollama rm llama2
+-------------------------------------------------
+Copy a Model
+ollama cp llama2 my-llama2
+-------------------------------------------------
+Multimodal models
+>>> What's in this image? /Users/jmorgan/Desktop/smile.png
+The image features a yellow smiley face, which is likely the central focus of the picture.
+
+-------------------------------------------------
+Pass in prompt as arguments
+$ ollama run llama2 "Summarize this file: $(cat README.md)"
+Ollama is a lightweight, extensible framework for building and running language models on the local machine.
+It provides a simple API for creating, running, and managing models, as well as a library of pre-built models
+that can be easily used in a variety of applications.
+-------------------------------------------------
+List models on your computer
+ollama list
+-------------------------------------------------
+Start Ollama
+ollama serve is used when you want to start ollama without running the desktop application.
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+-------------------------------------------------
+(shakilmacstudio.lan)/Users/shakil/blocksml_private/old_historial/ollama_models
+ $hakil->

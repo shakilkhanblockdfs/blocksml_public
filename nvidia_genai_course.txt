@@ -1,0 +1,93 @@
+Here are the 9 best AI courses from Nvidia, which are free.
+
+----------------------------------------------------
+
+Generative AI Explained
+
+Inside, you'll learn how to:
+- Define Generative AI and explain how Generative AI works
+- Describe various Generative AI applications
+- Explain the challenges and opportunities in Generative AI
+
+Link: https://lnkd.in/gv-2XNNW
+
+----------------------------------------------------
+
+Building A Brain in 10 Minutes
+
+Inside, you'll:
+- Explore how AI neural networks use data to learn
+- Understand the math behind a neuron
+
+Link: https://lnkd.in/gUSFwfDp
+
+----------------------------------------------------
+
+
+Augment your LLM Using Retrieval Augmented Generation
+
+Inside, you'll learn:
+- The basics of Retrieval Augmented Generation.
+- About the RAG retreival process
+- NVIDIA AI Foundations and the components that constitute a RAG model
+
+Link: https://lnkd.in/gC2_fNKs
+
+----------------------------------------------------
+
+Building RAG Agents with LLMs
+
+Inside, you'll:
+- Explore scalable deployment strategies for LLMs and vector databases.
+- Learn about how to develop microservices
+- Experiment with modern LangChain paradigms
+- Get practice with state-of-the-art models
+
+Link: https://lnkd.in/gDN-7yFS
+
+----------------------------------------------------
+
+Getting Started with AI on Jetson Nano
+
+You'll learn how to:
+- Set up your Jetson Nano and camera
+- Collect image data 
+- Annotate image data for regression models
+- Train a neural network on your data to create your own models
+
+Link: https://lnkd.in/g2i3y9Q2
+
+----------------------------------------------------
+
+Building Video AI Applications
+
+You'll learn how to:
+- Convert raw video input into insightful annotated video output
+- Build alternate input & output sources into your pipeline
+- Configure multiple video streams simultaneously
+
+Link: https://lnkd.in/gV9yhu6D
+
+----------------------------------------------------
+
+Accelerate Data Science Workflows w/ Zero Code Changes
+
+You'll learn how to:
+- Unify CPU & GPU workflows
+- GPU-accelerate various data processing & ML workflows with zero code changes
+- Significantly reduce processing time
+
+Link: https://lnkd.in/gAMQeWtE
+
+----------------------------------------------------
+
+Digital Fingerprinting with Morpheus
+
+Inside, you'll:
+- Develop and deploy the NVIDIA digital fingerprinting AI workflow 
+- Hear from cybersecurity experts about how to use NVIDIA AI frameworks and tools to architect cybersecurity solutions
+
+Link: https://lnkd.in/g9uW52qy
+
+----------------------------------------------------
+
