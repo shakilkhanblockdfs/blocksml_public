@@ -4,12 +4,15 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const db = new sqlite3.Database(':memory:'); // In-memory DB; you can change this to a file-based DB if needed.
+
+// Change from in-memory to file-based database by providing a path to the database file
+// This will create the file if it doesn't already exist.
+const db = new sqlite3.Database('./todos.db'); // File-based DB: 'todos.db' in the current directory
 
 app.use(cors());
 app.use(bodyParser.json());
 
-// Initialize the database
+// Initialize the database (creates the table if it doesn't exist)
 db.serialize(() => {
   db.run("CREATE TABLE IF NOT EXISTS todos (name TEXT, done BOOLEAN)");
 });
