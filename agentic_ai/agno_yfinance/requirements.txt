@@ -1,5 +1,5 @@
 agno
-openai
+anthropic
 duckduckgo-search
 yfinance
 python-dotenv
